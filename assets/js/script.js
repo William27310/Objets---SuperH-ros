@@ -5,8 +5,8 @@ fetch('assets/json/dc.json')
 
         data.forEach(hero => {
             document.getElementById('conteneur').innerHTML += `
-            <div class="card mb-5 bg-dark" style="width: 24rem; height: 62rem;">
-                <h5 class="card-title mt-2 text-white"> ${hero.name} </h5>
+            <div class="card mb-5 bg-dark" style="width: 24rem; height: 68rem;">
+                <h5 class="card-title mt-2 text-white text-center"> ${hero.name} </h5>
                 <img src= ${hero.image} class="card-img-top border rounded" alt="...">
                 <div class="card-body">
                     <ul>
